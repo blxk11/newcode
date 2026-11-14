@@ -9,7 +9,7 @@ class Student:
         print(self.name,self.age,self.school)
         
     @classmethod
-    def change_school(self, new_school):
+    def change_school(cls, new_school):
         cls.school = new_school
         
 student1 = Student("john",21)
